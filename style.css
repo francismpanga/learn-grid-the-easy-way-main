@@ -203,5 +203,9 @@ h3 {
 
 .pink{grid-column: span 2;
 }
-
+@media (max-width: 600px) {
+  .testimonial-grid{
+    grid-template-columns: 1fr;
+  }
+}
 
